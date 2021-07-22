@@ -14,6 +14,15 @@ namespace UrbanPlanner
 
             TwentyOneEight.Construct();
             TwentyOneEight.Purchase("Matt");
+
+
+            var ThirtyFiveTwentyOne = new Building("35 21st Ave S");
+            ThirtyFiveTwentyOne.Width = 500;
+            ThirtyFiveTwentyOne.Depth = 30;
+            ThirtyFiveTwentyOne.Stories = 2;
+
+            ThirtyFiveTwentyOne.Construct();
+            ThirtyFiveTwentyOne.Purchase("Jack");
         }
     }
 }
